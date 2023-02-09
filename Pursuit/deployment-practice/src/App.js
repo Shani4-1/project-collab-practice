@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const API_Key = process.env.REACT_APP_API_KEY;
+  console.log(API_Key)
   return (
     <div className="App">
       <header className="App-header">
