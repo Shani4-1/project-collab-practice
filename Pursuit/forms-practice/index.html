@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+  </head>
+  <body>
+    <h1>Dream Superhero Team</h1>
+    <form>
+        <!-- SuperHero Personality Quiz -->
+        
+        <!-- Favorite SuperHero?? -->
+        <label for="superheroes">Favorite Superhero</label>
+        <input name="superheroes" type="text" id="superheroes" placeholder="favorite superhero?" />
+        
+        
+        <!-- Drop Down For 'Best teammate for Your Superhero' -->
+        <br>
+        <br>
+        <label>
+            Best Teammate for Your Superhero
+            <select id="best teammate for your superhero" name="choose your teammate">
+                <option>--Select your teammate--</option>
+                <option value="robin">Robin</option>
+                <option value="supergirl">Supergirl</option>
+                <option value="harley quinn">Harley Quinn</option>
+                <option value="wong">Wong</option>
+                <option value="bucky">Bucky</option>
+                
+                
+                
+                
+            </select>
+        </label>
+        <!-- Radio Button set (mutually exlusive) for Best Villian for this team -->
+        <br>
+        <br>
+        Worse Superhero: 
+        <br>
+        <label>
+            Joker
+            <input id="joker" name="best_villian" type="radio" value="joker" />
+            
+        </label>
+        
+        <label>
+            Thanos
+            <input id="thanos" name="best_villian" type="radio" value="thanos" checked/>
+            
+        </label>
+        
+        <!-- Checkboxes (mutually exlusive for what powers does this team have? Have a checkbox be checked by default!) -->
+        <br>
+        <br>
+        What Powers? 
+        <label>
+            Flight
+            <input id="flight" name="flight" type="checkbox" value="flight" checked/>
+            
+        </label>
+        <label>
+            Bulletproof
+            <input id="bulletproof" name="bulletproof" type="checkbox" value="bulletproof"/>
+            
+        </label>
+        <!-- Text Area -->
+        <br>
+        <br>
+        <textarea name="superhero-backstory" rows="50" cols="50" id="superhero-backstory"></textarea>
+        
+        <!-- Email Address -->
+        <br>
+        <br>
+        <label for="email"> Email Address</label>
+        <input name="email" type="email" id="email" placeholder="email address" required/>
+        <!-- Submit Buttion -->
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+
+    </form>
+  </body>
+</html>
