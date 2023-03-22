@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Film from "./Film";
 
 const API_BASE_URL = "https://resource-ghibli-api.onrender.com";
