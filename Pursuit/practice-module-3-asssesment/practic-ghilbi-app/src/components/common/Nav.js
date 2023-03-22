@@ -6,7 +6,7 @@ export default function Nav() {
             <div className="container-fluid">
                 
                 <div className="" id="navbarSupportedContent">
-                <img className="img-thumbnail" src={hero} height alt="logo"></img>
+                <img className="img-thumbnail" src={hero}  alt="logo"></img>
                 <ul className="navbar-nav mx-center mb-2 mb-lg-0">
                     <li className="nav-item">
                         <Link className="nav-link fs-3" to="/">Home</Link>
